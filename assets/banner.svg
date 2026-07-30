@@ -1,0 +1,53 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0a0a"/>
+      <stop offset="50%" stop-color="#2b0d0d"/>
+      <stop offset="100%" stop-color="#0d0505"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#5c1010" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="blade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8a8a8a" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#2a2a2a" stop-opacity="0.05"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="360" fill="url(#glow)"/>
+
+  <g opacity="0.12" stroke="#ff4d4d" stroke-width="1.5">
+    <line x1="0" y1="40" x2="300" y2="40"/>
+    <line x1="900" y1="320" x2="1200" y2="320"/>
+    <line x1="60" y1="330" x2="260" y2="330"/>
+  </g>
+
+  <g opacity="0.1" fill="#ff6666">
+    <circle cx="150" cy="80" r="4"/>
+    <circle cx="170" cy="95" r="2.5"/>
+    <circle cx="1040" cy="60" r="3"/>
+    <circle cx="1060" cy="75" r="2"/>
+    <circle cx="1080" cy="90" r="1.5"/>
+  </g>
+
+  <g opacity="0.08" fill="url(#blade)" stroke="#cccccc" stroke-width="1">
+    <polygon points="1000,40 1120,20 1115,35 1005,55"/>
+    <polygon points="80,300 200,280 195,295 85,315"/>
+  </g>
+
+  <g opacity="0.06" stroke="#ff3333" stroke-width="2" fill="none">
+    <circle cx="600" cy="180" r="150"/>
+    <circle cx="600" cy="180" r="220"/>
+  </g>
+
+  <text x="600" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="56.0" fill="#ffffff" font-weight="bold">
+    <tspan x="600" dy="0">Murder Mystery 2 Scripts</tspan>
+  </text>
+
+  <text x="600" y="215" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20.0" fill="#c9d1d9">
+    <tspan x="600" dy="0">Pluggable script tracker for the Murder Mystery 2 scripting ecosystem —</tspan>
+    <tspan x="600" dy="30">organize, tag, and version your scrip…</tspan>
+  </text>
+</svg>
